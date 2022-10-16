@@ -1,0 +1,135 @@
+<html>
+  <head>
+    <title>React Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+    />
+    <h1 class="Header">React with Karthik</h1>
+    <style>
+        body {
+        background: linear-gradient(to top left, #818384 0%, #741aa8 100%);
+      }
+      .Header {
+        text-align: center;
+        letter-spacing: 2;
+        text-shadow: 1px 1px 50px rgb(15, 15, 15);
+        color: mintcream;
+        text-transform: capitalize;
+        font-size: xx-large;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 30px;
+      }
+      .form-label{
+        color: beige;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .row-cols-auto{
+        color: beige;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        padding-top: 5px;
+      }
+      a:link, a:visited {
+  background-color: beige;
+  color: #741aa8;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:rgba(214, 203, 203, 0.536);
+}
+    </style>
+    <body>
+      <div class="container">
+        <div class="row row-cols-auto">
+          <a href="#" class="col">Home</a>
+          <a href="#" class="col">CourseDetails</a>
+          <a href="#" class="col">Contact</a>
+          <a href="#" class="col">Help</a>
+        </div>
+      </div>
+    <div class="container" style="padding-top: 40px;">
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltip01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltip02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltipUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+        <div class="invalid-tooltip">
+          Please choose a unique and valid username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 position-relative">
+      <label for="validationTooltip03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationTooltip03" required>
+      <div class="invalid-tooltip">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 position-relative">
+      <label for="validationTooltip04" class="form-label">State</label>
+      <select class="form-select" id="validationTooltip04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-tooltip">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 position-relative">
+      <label for="validationTooltip05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationTooltip05" required>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit" onclick="alert('Please Fill all the Details')">Submit form</button>
+    </div>
+  </form> 
+  </div>
+</div>
+<div class="container">
+<div class="card" style="width: 18rem;">
+  <img src="https://reactjs.org/logo-og.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text"><strong>React makes it painless to create interactive UIs. Design simple views for each state in your application.</strong></p>
+  </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row row-cols-2">
+  </div>
+</div>
+</body> 
+</html>
